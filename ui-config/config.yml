@@ -11,3 +11,21 @@ rest:
   host: localhost
   port: 8081
   nameSpace: /server
+
+themes:
+  - name: dspace
+    headTags:
+      - tagName: link
+        attributes:
+          rel: icon
+          href: assets/dspace/images/favicons/favicon.ico
+          sizes: any
+      - tagName: link
+        attributes:
+          rel: icon
+          href: assets/dspace/images/favicons/favicon.svg
+          type: image/svg+xml
+      - tagName: link
+        attributes:
+          rel: manifest
+          href: assets/dspace/images/favicons/manifest.webmanifest
